@@ -1,0 +1,361 @@
+@font-face {
+  font-family: Myanmar MN Bold;
+  src: url(./Myanmar\ MN.ttc);
+}
+@font-face {
+  font-family: PingFang SC Light;
+  src: url(./PingFang\ Light.ttf);
+}
+@font-face {
+  font-family: PingFang SC Regular;
+  src: url(./PingFang-SC-Regular.otf);
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  font-size: 16px;
+}
+/*Header*/
+
+header {
+  margin: 0 auto;
+}
+
+.headerbox {
+  position: relative;
+  width: 750px;
+  height: 372px;
+  /* 水平居中 */
+  margin: 0 auto;
+}
+
+.sologan {
+  position: relative;
+  top: 22px;
+  left: 32px;
+  width: 250px;
+  height: 45px;
+  font-size: 32px;
+  font-family: Myanmar MN Bold;
+  font-weight: bold;
+  color: #1a1a1a;
+  line-height: 45px;
+}
+
+.icons {
+  display: none;
+}
+
+.headImg {
+  position: relative;
+  top: 21px;
+  font-family: PingFang SC Light;
+  background-image: url(img/wallhaven-0pgom3_2848x940.png);
+  background-size: 750px 284px;
+  width: 750px;
+  height: 284px;
+  background-color: #269dfd;
+}
+
+.headImg1 {
+  position: absolute;
+  top: 105px;
+  left: 15px;
+  display: block;
+  z-index: 666;
+  width: 360px;
+  height: 36px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #1c1d1f;
+  line-height: 54px;
+}
+
+.headImg2 {
+  position: absolute;
+  bottom: 110px;
+  left: 22px;
+  display: block;
+  z-index: 666;
+  width: 460px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #1c1d1f;
+  line-height: 30px;
+}
+/*Main*/
+main {
+  height: fit-content;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.mainbox {
+  position: relative;
+  width: 750px;
+  height: fit-content;
+  margin: 0 auto;
+
+  padding-bottom: 128px;
+  font-family: PingFang SC Regular;
+}
+
+.mkt {
+  position: relative;
+  left: 54px;
+  display: inline;
+  width: 96px;
+  height: 45px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1c1d1f;
+  line-height: 45px;
+
+  cursor: pointer;
+}
+
+.tech {
+  display: inline;
+  position: relative;
+  left: 98px;
+  width: 96px;
+  height: 45px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #888c8e;
+  line-height: 45px;
+
+  cursor: pointer;
+}
+
+#boxContainer {
+  width: 750px;
+  height: fit-content;
+}
+
+.itemsContainer {
+  display: none;
+}
+.itemsContainerP {
+  width: 686px;
+  font-family: Myanmar MN Bold;
+}
+.items1P {
+  margin-left: 32px;
+  margin-top: 48px;
+  width: 686px;
+  height: 475px;
+  background: #ffffff;
+  border-width: 2px;
+  box-shadow: 0px 2px 8px 0px rgba(98, 98, 98, 0.08);
+}
+.items2P {
+  position: relative;
+  margin-left: 32px;
+  margin-top: 48px;
+  width: 686px;
+  height: 475px;
+  background: #ffffff;
+  box-shadow: 1px 2px 8px 1px rgba(98, 98, 98, 0.08);
+}
+
+.info {
+  width: 686px;
+  height: 241px;
+  background-color: #ffffff;
+}
+.fir {
+  width: 432px;
+  height: 50px;
+  font-size: 36px;
+  font-family: Myanmar MN Bold;
+  color: #1c1d1f;
+  line-height: 51px;
+
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.sec {
+  width: 654px;
+  height: 66px;
+  font-size: 24px;
+  font-family: Myanmar MN Bold;
+  color: #696c6d;
+  line-height: 34px;
+
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.thi {
+  width: 654px;
+  height: 29px;
+  font-size: 20px;
+  font-family: Myanmar MN Bold;
+  color: #888c8e;
+  line-height: 29px;
+
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.thi span {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.loadMore {
+  position: relative;
+  display: block;
+  margin: 40px auto 0 auto;
+  font-size: 24px;
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 33px;
+  width: 200px;
+  height: 44px;
+  background: #1c1d1f;
+
+  border: #696c6d;
+
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  margin: 0 auto;
+}
+
+.footerbox {
+  position: relative;
+  width: 750px;
+  height: 362px;
+  margin: 0 auto;
+  font-family: PingFang SC Regular;
+  background: #1c1d1f;
+
+  margin: 0 auto;
+}
+.monstar {
+  position: absolute;
+  top: 117px;
+  left: 202px;
+}
+
+.lab {
+  position: absolute;
+  top: 258px;
+  left: 120px;
+  width: 511px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 32px;
+
+  text-align: center;
+}
+
+.email {
+  position: absolute;
+  top: -48px;
+  right: 239px;
+  width: 96px;
+  height: 96px;
+  background: #15a28e;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+
+  cursor: pointer;
+  overflow: visible;
+}
+
+.email img {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 30px;
+  left: 30px;
+}
+
+.email-content {
+  display: none;
+  position: absolute;
+  left:-52px;
+  white-space:nowrap;
+  color: rgb(8, 112, 43);
+}
+.email:hover .email-content {
+  display: block;
+}
+
+.tel {
+  position: absolute;
+  top: -48px;
+  left: 239px;
+  width: 96px;
+  height: 96px;
+  background: #15a28e;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+
+  cursor: pointer;
+  overflow: visible;
+}
+
+.tel img {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 30px;
+  left: 30px;
+}
+
+.tel-content {
+  display: none;
+  position: absolute;
+  left:-50px;
+  white-space:nowrap;
+  color: rgb(8, 112, 43);
+}
+.tel:hover .tel-content {
+  display: block;
+}
+
+.line {
+  width: 2px;
+  height: 60px;
+  background: #ffffff;
+  opacity: 0.5;
+  position: absolute;
+  left: 926px;
+  top: 90px;
+}
+
+.chengdu h1 {
+  position: relative;
+  display: none;
+}
+
+.chengdu h2 {
+  position: absolute;
+  width: 480px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 28px;
+  top: 222px;
+  left: 155px;
+}
+
+.chengdu h3 {
+  display: none;
+}
+
+.shanghai {
+  display: none;
+}
