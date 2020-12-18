@@ -1,4 +1,5 @@
 @font-face {
+<<<<<<< HEAD
   font-family: Myanmar MN;
   src: url(./Myanmar-MN.ttc);
 }
@@ -38,11 +39,30 @@ body {
   margin: 0;
 }
 
+=======
+  font-family: Myanmar MN Bold;
+  src: url(./Myanmar\ MN.ttc);
+}
+@font-face {
+  font-family: PingFang SC Light;
+  src: url(./PingFang\ Light.ttf);
+}
+@font-face {
+  font-family: PingFang SC Regular;
+  src: url(./PingFang-SC-Regular.otf);
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  font-size: 16px;
+}
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
 /*Header*/
 
 header {
   margin: 0 auto;
 }
+<<<<<<< HEAD
 .headerBoxContainer {
   display: flex;
   justify-content: center;
@@ -60,12 +80,35 @@ header {
   font-family: "Myanmar MN";
   color: #1a1a1a;
   margin-left: 30px;
+=======
+
+.headerbox {
+  position: relative;
+  width: 750px;
+  height: 372px;
+  /* 水平居中 */
+  margin: 0 auto;
+}
+
+.sologan {
+  position: relative;
+  top: 22px;
+  left: 32px;
+  width: 250px;
+  height: 45px;
+  font-size: 32px;
+  font-family: Myanmar MN Bold;
+  font-weight: bold;
+  color: #1a1a1a;
+  line-height: 45px;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
 }
 
 .icons {
   display: none;
 }
 
+<<<<<<< HEAD
 main {
   margin: 0 auto;
 }
@@ -102,15 +145,83 @@ main {
 .mkt {
   display: inline;
   margin-left: 54px;
+=======
+.headImg {
+  position: relative;
+  top: 21px;
+  font-family: PingFang SC Light;
+  background-image: url(img/wallhaven-0pgom3_2848x940.png);
+  background-size: 750px 284px;
+  width: 750px;
+  height: 284px;
+  background-color: #269dfd;
+}
+
+.headImg1 {
+  position: absolute;
+  top: 105px;
+  left: 15px;
+  display: block;
+  z-index: 666;
+  width: 360px;
+  height: 36px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #1c1d1f;
+  line-height: 54px;
+}
+
+.headImg2 {
+  position: absolute;
+  bottom: 110px;
+  left: 22px;
+  display: block;
+  z-index: 666;
+  width: 460px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #1c1d1f;
+  line-height: 30px;
+}
+/*Main*/
+main {
+  height: fit-content;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.mainbox {
+  position: relative;
+  width: 750px;
+  height: fit-content;
+  margin: 0 auto;
+
+  padding-bottom: 128px;
+  font-family: PingFang SC Regular;
+}
+
+.mkt {
+  position: relative;
+  left: 54px;
+  display: inline;
+  width: 96px;
+  height: 45px;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   font-size: 32px;
   font-weight: bold;
   color: #1c1d1f;
   line-height: 45px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   cursor: pointer;
 }
 
 .tech {
   display: inline;
+<<<<<<< HEAD
   margin-left: 98px;
   font-size: 32px;
   font-weight: 400;
@@ -145,10 +256,42 @@ main {
   margin: 0 auto;
   margin-top: 48px;
   width: 686px;
+=======
+  position: relative;
+  left: 98px;
+  width: 96px;
+  height: 45px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #888c8e;
+  line-height: 45px;
+
+  cursor: pointer;
+}
+
+#boxContainer {
+  width: 750px;
+  height: fit-content;
+}
+
+.itemsContainer {
+  display: none;
+}
+.itemsContainerP {
+  width: 686px;
+  font-family: Myanmar MN Bold;
+}
+.items1P {
+  margin-left: 32px;
+  margin-top: 48px;
+  width: 686px;
+  height: 475px;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   background: #ffffff;
   border-width: 2px;
   box-shadow: 0px 2px 8px 0px rgba(98, 98, 98, 0.08);
 }
+<<<<<<< HEAD
 @media screen and (max-width: 684px) {
     main .contentBox .content .itemsContainerPhone .itemListPhone .item  .picture img{
      width: 100%;
@@ -167,10 +310,23 @@ main {
      font-family: Myanmar MN Bold;
    }
  }
+=======
+.items2P {
+  position: relative;
+  margin-left: 32px;
+  margin-top: 48px;
+  width: 686px;
+  height: 475px;
+  background: #ffffff;
+  box-shadow: 1px 2px 8px 1px rgba(98, 98, 98, 0.08);
+}
+
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
 .info {
   width: 686px;
   height: 241px;
   background-color: #ffffff;
+<<<<<<< HEAD
   font-family: Myanmar MN Bold;
 }
 
@@ -195,6 +351,41 @@ main {
   font-size: 20px;
   color: #888c8e;
   line-height: 29px;
+=======
+}
+.fir {
+  width: 432px;
+  height: 50px;
+  font-size: 36px;
+  font-family: Myanmar MN Bold;
+  color: #1c1d1f;
+  line-height: 51px;
+
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.sec {
+  width: 654px;
+  height: 66px;
+  font-size: 24px;
+  font-family: Myanmar MN Bold;
+  color: #696c6d;
+  line-height: 34px;
+
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.thi {
+  width: 654px;
+  height: 29px;
+  font-size: 20px;
+  font-family: Myanmar MN Bold;
+  color: #888c8e;
+  line-height: 29px;
+
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   margin-left: 16px;
   margin-top: 24px;
 }
@@ -205,9 +396,15 @@ main {
 }
 
 .loadMore {
+<<<<<<< HEAD
   display: block;
   margin: 0 auto;
   margin-top: 40px;
+=======
+  position: relative;
+  display: block;
+  margin: 40px auto 0 auto;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   font-size: 24px;
   font-family: PingFang SC Regular;
   font-weight: 400;
@@ -216,6 +413,7 @@ main {
   width: 200px;
   height: 44px;
   background: #1c1d1f;
+<<<<<<< HEAD
   border: #696c6d;
   cursor: pointer;
   text-align: center;
@@ -244,12 +442,59 @@ footer {
   justify-content: space-around;
 }
 .email {
+=======
+
+  border: #696c6d;
+
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  margin: 0 auto;
+}
+
+.footerbox {
+  position: relative;
+  width: 750px;
+  height: 362px;
+  margin: 0 auto;
+  font-family: PingFang SC Regular;
+  background: #1c1d1f;
+
+  margin: 0 auto;
+}
+.monstar {
+  position: absolute;
+  top: 117px;
+  left: 202px;
+}
+
+.lab {
+  position: absolute;
+  top: 258px;
+  left: 120px;
+  width: 511px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 32px;
+
+  text-align: center;
+}
+
+.email {
+  position: absolute;
+  top: -48px;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   right: 239px;
   width: 96px;
   height: 96px;
   background: #15a28e;
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
   border-radius: 50%;
+<<<<<<< HEAD
   cursor: pointer;
   overflow: visible;
   display: flex;
@@ -260,27 +505,54 @@ footer {
 .email img {
   width: 36px;
   height: 36px;
+=======
+
+  cursor: pointer;
+  overflow: visible;
+}
+
+.email img {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 30px;
+  left: 30px;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
 }
 
 .email-content {
   display: none;
   position: absolute;
+<<<<<<< HEAD
   left: -52px;
   white-space: nowrap;
   color: rgb(8, 112, 43);
 }
 
+=======
+  left:-52px;
+  white-space:nowrap;
+  color: rgb(8, 112, 43);
+}
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
 .email:hover .email-content {
   display: block;
 }
 
 .tel {
+<<<<<<< HEAD
   left: 240px;
+=======
+  position: absolute;
+  top: -48px;
+  left: 239px;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   width: 96px;
   height: 96px;
   background: #15a28e;
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
   border-radius: 50%;
+<<<<<<< HEAD
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -290,20 +562,41 @@ footer {
 .tel img {
   width: 36px;
   height: 36px;
+=======
+
+  cursor: pointer;
+  overflow: visible;
+}
+
+.tel img {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 30px;
+  left: 30px;
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
 }
 
 .tel-content {
   display: none;
   position: absolute;
+<<<<<<< HEAD
   left: -50px;
   white-space: nowrap;
   color: rgb(8, 112, 43);
 }
 
+=======
+  left:-50px;
+  white-space:nowrap;
+  color: rgb(8, 112, 43);
+}
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
 .tel:hover .tel-content {
   display: block;
 }
 
+<<<<<<< HEAD
 .monstarLab {
   width: 512px;
   height: 362px;
@@ -348,6 +641,36 @@ footer {
 }
 
 .chengdu .h3 {
+=======
+.line {
+  width: 2px;
+  height: 60px;
+  background: #ffffff;
+  opacity: 0.5;
+  position: absolute;
+  left: 926px;
+  top: 90px;
+}
+
+.chengdu h1 {
+  position: relative;
+  display: none;
+}
+
+.chengdu h2 {
+  position: absolute;
+  width: 480px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 28px;
+  top: 222px;
+  left: 155px;
+}
+
+.chengdu h3 {
+>>>>>>> aed1c03b5a4cdd6b341f46c7f387694759397b3b
   display: none;
 }
 
