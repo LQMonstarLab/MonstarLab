@@ -1,0 +1,356 @@
+@font-face {
+  font-family: Myanmar MN;
+  src: url(./Myanmar-MN.ttc);
+}
+
+@font-face {
+  font-family: Myanmar MN Bold;
+  src: url(./Myanmar-MN-Bold.ttf);
+}
+
+@font-face {
+  font-family: PingFang SC Light;
+  src: url(./PingFang-Light.ttf);
+}
+
+@font-face {
+  font-family: PingFang SC Regular;
+  src: url(./PingFang-SC-Regular.ttf);
+}
+
+@font-face {
+  font-family: PingFang SC Medium;
+  src: url(./PingFang-SC-Medium.ttf);
+}
+
+@font-face {
+  font-family: Hiragino Mincho ProN W3;
+  src: url(./Hiragino-Mincho-Pron-W3.ttf);
+}
+
+@font-face {
+  font-family: SongTi SC Regular;
+  src: url(./SongTi-SC-Regular.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*Header*/
+
+header {
+  margin: 0 auto;
+}
+.headerBoxContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.headerBox {
+  width: 750px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+}
+
+.sologan {
+  font-size: 32px;
+  font-family: "Myanmar MN";
+  color: #1a1a1a;
+  margin-left: 30px;
+}
+
+.icons {
+  display: none;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.mainImgContainer {
+  display: flex;
+  justify-content: center;
+  font-family: "PingFang SC Light";
+}
+
+/*解决375px以下屏幕*/
+@media screen and (max-width: 748px) {
+  main .mainImgContainer .mainImg {
+    width: 100%;
+    height: 284px;
+  }
+}
+.mainImg {
+  width: 750px;
+  height: 284px;
+}
+
+.mainSelectorContainer {
+  display: flex;
+  justify-content: start;
+  width: 750px;
+  margin:64px auto 0 auto;
+}
+
+.selector {
+  font-family: SongTi SC Regular;
+}
+
+.mkt {
+  display: inline;
+  margin-left: 54px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1c1d1f;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.tech {
+  display: inline;
+  margin-left: 98px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #696c6d;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.itemsContainer {
+  display: none;
+}
+.itemsContainerPhone {
+  font-family: Myanmar MN;
+}
+
+.itemListPhone {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 684px) {
+   main .contentBox .content .itemsContainerPhone .itemListPhone .item {
+    margin: 0 auto;
+    margin-top: 48px;
+    width: 86%;
+    background: #ffffff;
+    border-width: 2px;
+    box-shadow: 0px 2px 8px 0px rgba(98, 98, 98, 0.08);
+  }
+}
+.item {
+  margin: 0 auto;
+  margin-top: 48px;
+  width: 686px;
+  background: #ffffff;
+  border-width: 2px;
+  box-shadow: 0px 2px 8px 0px rgba(98, 98, 98, 0.08);
+}
+@media screen and (max-width: 684px) {
+    main .contentBox .content .itemsContainerPhone .itemListPhone .item  .picture img{
+     width: 100%;
+     height: 234px;
+   }
+ }
+.item .picture img{
+    width: 684px; 
+    height:234px;
+}
+@media screen and (max-width: 684px) {
+    main .contentBox .content .itemsContainerPhone .itemListPhone .item  .info{
+     width: 86%;
+     height: 300px;
+     background-color: #ffffff;
+     font-family: Myanmar MN Bold;
+   }
+ }
+.info {
+  width: 686px;
+  height: 241px;
+  background-color: #ffffff;
+  font-family: Myanmar MN Bold;
+}
+
+.fir {
+  font-family: Myanmar MN;
+  font-size: 36px;
+  color: #1c1d1f;
+  line-height: 51px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.sec {
+  font-size: 24px;
+  color: #696c6d;
+  line-height: 34px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.thi {
+  font-size: 20px;
+  color: #888c8e;
+  line-height: 29px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.thi span {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.loadMore {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 24px;
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 33px;
+  width: 200px;
+  height: 44px;
+  background: #1c1d1f;
+  border: #696c6d;
+  cursor: pointer;
+  text-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  margin-top: 128px;
+  position: relative;
+  background: #1c1d1f;
+}
+
+.footerContainer {
+  margin: 0 auto;
+  height: 362px;
+  font-family: PingFang SC Regular;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.contactBox {
+  position: absolute;
+  top: -48px;
+  width: 340px;
+  display: flex;
+  justify-content: space-around;
+}
+.email {
+  right: 239px;
+  width: 96px;
+  height: 96px;
+  background: #15a28e;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email img {
+  width: 36px;
+  height: 36px;
+}
+
+.email-content {
+  display: none;
+  position: absolute;
+  left: -52px;
+  white-space: nowrap;
+  color: rgb(8, 112, 43);
+}
+
+.email:hover .email-content {
+  display: block;
+}
+
+.tel {
+  left: 240px;
+  width: 96px;
+  height: 96px;
+  background: #15a28e;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tel img {
+  width: 36px;
+  height: 36px;
+}
+
+.tel-content {
+  display: none;
+  position: absolute;
+  left: -50px;
+  white-space: nowrap;
+  color: rgb(8, 112, 43);
+}
+
+.tel:hover .tel-content {
+  display: block;
+}
+
+.monstarLab {
+  width: 512px;
+  height: 362px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 20px;
+  font-weight: 400;
+  color: #bbc4c7;
+  line-height: 28px;
+  position: relative;
+  top: 222px;
+}
+
+#monstarlabLogo {
+  width: 346px;
+  height: 46px;
+  position: relative;
+  top: 118px;
+}
+.line {
+  display: none;
+}
+
+.chengdu .h1 {
+  display: none;
+}
+
+.chengdu .h2 {
+  width: 442px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #bbc4c7;
+  line-height: 28px;
+  position: absolute;
+  top: 222px;
+  left: 50%;
+  margin-left: -221px;
+}
+
+.chengdu .h3 {
+  display: none;
+}
+
+.shanghai {
+  display: none;
+}

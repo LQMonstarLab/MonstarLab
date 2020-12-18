@@ -1,0 +1,417 @@
+@font-face {
+    font-family: Myanmar MN;
+    src: url(./Myanmar-MN.ttc);
+}
+
+@font-face {
+    font-family: Myanmar MN Bold;
+    src: url(./Myanmar-MN-Bold.ttf);
+}
+
+@font-face {
+    font-family: PingFang SC Light;
+    src: url(./PingFang-Light.ttf);
+}
+
+@font-face {
+    font-family: PingFang SC Regular;
+    src: url(./PingFang-SC-Regular.ttf);
+}
+
+@font-face {
+    font-family: PingFang SC Medium;
+    src: url(./PingFang-SC-Medium.ttf);
+}
+
+@font-face {
+    font-family: Hiragino Mincho ProN W3;
+    src: url(./Hiragino-Mincho-Pron-W3.ttf);
+}
+
+@font-face {
+    font-family: SongTi SC Regular;
+    src: url(./SongTi-SC-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.headerBox {
+    width: 1242px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sologan {
+    font-size: 32px;
+    font-family: Myanmar MN;
+    color: #1a1a1a;
+}
+
+.sologan span {
+    font-family: Myanmar MN Bold;
+    font-weight: bold;
+    color: #269dfd;
+}
+
+.icons {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Main*/
+
+main {
+    margin: 32px auto 96px auto;
+}
+
+.mainImgContainer {
+    display: flex;
+    justify-content: center;
+    font-family: PingFang SC Light;
+}
+
+.mainImg {
+    width: 1242px;
+    height: 470px;
+}
+
+.mainSelectorContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.selector {
+    width: 1242px;
+    font-family: PingFang SC Regular;
+}
+
+.mkt {
+    display: inline;
+    font-size: 16px;
+    font-family: PingFang SC Medium;
+    font-weight: bold;
+    color: #1C1D1F;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.tech {
+    display: inline;
+    margin-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #696c6d;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.itemsContainerPhone {
+    display: none;
+}
+
+.itemsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.itemsList {
+    width: 1242px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.picture {
+    position: relative;
+    width: 388px;
+    height: 300px;
+}
+
+.date {
+    position: absolute;
+    left: 26px;
+    top: -24px;
+    height: 48px;
+    background: #1c1d1f;
+    border: 2px solid rgb(231, 231, 231);
+    font-family: PingFang SC Regular;
+    z-index: 666;
+    overflow: visible;
+}
+
+.day {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(231, 231, 231);
+    line-height: 22px;
+    margin: 4px 16px 0 16px;
+    text-align: center;
+}
+
+.month {
+    font-family: PingFang SC Light;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(231, 231, 231);
+    line-height: 16px;
+    margin: 2px auto;
+    text-align: center;
+}
+
+.info {
+    width: 387px;
+    height: 155px;
+    top: 300px;
+    border-bottom: rgb(231, 231, 231);
+    border-bottom-style: dotted;
+    border-width: 2px;
+    font-family: PingFang SC Regular;
+}
+
+.fir {
+    width: 288px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1c1d1f;
+    line-height: 33px;
+    margin: auto;
+    padding-top: 24px;
+}
+
+.sec {
+    width: 387px;
+    height: 34px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #696c6d;
+    line-height: 17px;
+    margin: auto;
+    padding: 16px 0 0 0;
+    text-align: center;
+}
+
+.thi {
+    font-size: 12px;
+    font-weight: 400;
+    color: #888c8e;
+    line-height: 17px;
+    margin: auto;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.thi span {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.loadMore {
+    margin: 0 auto;
+    margin-top: 80px;
+    display: block;
+    font-size: 12px;
+    font-family: PingFang SC Regular;
+    font-weight: 400;
+    color: lightgray;
+    line-height: 17px;
+    width: 160px;
+    height: 40px;
+    background: #1c1d1f;
+    border: #696c6d;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    background: #1c1d1f;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    position: relative;
+    width: 1242px;
+    height: 240px;
+    margin: 0 auto;
+    font-family: PingFang SC Regular;
+    display: inline-flex;
+}
+
+.contactBox {
+    position: absolute;
+    top: -16px;
+    left: 748px;
+    width: 494px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    width: 230px;
+    height: 32px;
+    background: #1c1d1f;
+    border-radius: 20px;
+    border: 1px solid #bbc4c7;
+    color: #bbc4c7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email img {
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 16px;
+    height: 14px;
+}
+
+.email-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tel {
+    width: 210px;
+    height: 32px;
+    background: #1c1d1f;
+    border-radius: 20px;
+    border: 1px solid #bbc4c7;
+    color: #bbc4c7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tel img {
+    margin-left: 5px;
+    width: 16px;
+    height: 14px;
+}
+
+.tel-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.monstarLab {
+    width: 622px;
+    height: 80px;
+    position: relative;
+    top: 90px;
+}
+
+.address {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#monstarlabLogo {
+    width: 210px;
+    height: 26px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bbc4c7;
+    line-height: 17px;
+}
+
+.line {
+    width: 2px;
+    height: 60px;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+.chengdu {
+    width: 300px;
+}
+
+.chengdu .h1 {
+    font-family: PingFang SC Medium;
+    width: 56px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: lightgray;
+    line-height: 20px;
+}
+
+.chengdu .h2 {
+    width: 270px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    color: lightgray;
+    line-height: 17px;
+    margin-top: 16px;
+}
+
+.chengdu .h3 {
+    width: 264px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    color: lightgray;
+    line-height: 17px;
+    margin-top: 16px;
+}
+
+.shanghai {
+    width: 260px;
+}
+
+.shanghai .h1 {
+    font-family: PingFang SC Medium;
+    width: 70px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: lightgray;
+    line-height: 20px;
+}
+
+.shanghai .h2 {
+    width: 254px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    color: lightgray;
+    line-height: 17px;
+    margin-top: 16px;
+}
+
+.shanghai .h3 {
+    width: 225px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    color: lightgray;
+    line-height: 17px;
+    margin-top: 16px;
+}
